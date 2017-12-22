@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NNModule_Example' do
+  pod 'NNModule', :path => '../'
+
+  target 'NNModule_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  end
+end
