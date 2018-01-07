@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NNModule'
-  s.version          = '0.0.1'
-  s.summary          = 'A short description of NNModule.'
+  s.version          = '0.0.2'
+  s.summary          = 'A framework used for Modulized Project.'
   s.homepage         = 'https://github.com/NNKit/NNModule'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ws00801526' => '3057600441@qq.com' }
