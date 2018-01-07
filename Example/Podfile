@@ -2,10 +2,11 @@ use_frameworks!
 
 target 'NNModule_Example' do
   pod 'NNModule', :path => '../'
-
+  pod 'YYModel', :git => 'git@github.com:ws00801526/YYModel.git'
   target 'NNModule_Tests' do
     inherit! :search_paths
 
-    pod 'Kiwi'
+    pod 'Quick'
+    pod 'Nimble'
   end
 end

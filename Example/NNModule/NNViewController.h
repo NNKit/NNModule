@@ -7,7 +7,10 @@
 //
 
 @import UIKit;
+@import NNModule;
 
-@interface NNViewController : UIViewController
+@interface NNViewController : UIViewController <NNServiceProtocol>
+
+- (void)printHelloWorld;
 
 @end

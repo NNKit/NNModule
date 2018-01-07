@@ -7,9 +7,7 @@
 //
 
 @import UIKit;
+@import NNModule;
 
-@interface NNAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface NNTestDelegate : NNModulizedDelegate
 @end

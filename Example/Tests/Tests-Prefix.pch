@@ -2,6 +2,7 @@
 
 #ifdef __OBJC__
 
-  @import Kiwi;
+	@import Quick;
+	@import Nimble;
 
 #endif

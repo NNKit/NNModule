@@ -7,11 +7,11 @@
 //
 
 @import UIKit;
-#import "NNAppDelegate.h"
+#import "NNTestDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([NNAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([NNTestDelegate class]));
     }
 }
